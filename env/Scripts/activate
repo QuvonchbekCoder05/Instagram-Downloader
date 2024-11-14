@@ -42,7 +42,7 @@ if [ "${OSTYPE:-}" = "cygwin" ] || [ "${OSTYPE:-}" = "msys" ] ; then
     export VIRTUAL_ENV=$(cygpath "c:\Users\hp\Desktop\Instagram downloader\env")
 else
     # use the path as-is
-    export VIRTUAL_ENV="C:\Users\hp\Desktop\Instagram downloader\env"
+    export VIRTUAL_ENV="c:\Users\hp\Desktop\Instagram downloader\env"
 fi
 
 _OLD_VIRTUAL_PATH="$PATH"
